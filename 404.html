@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>No encontrada · Good Job</title>
+<meta name="description" content="Good Job: trabajos y oficios. No encontrada.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: una columna de lectura (~65 caracteres), índice arriba, tres documentos con ancla propia. Blanco y negro como la app. */
+:root{
+  --bg:#ffffff; --fg:#0b0b0c; --muted:#5f6166; --line:#e6e6e8; --soft:#f4f4f5; --accent:#0b0b0c;
+  --display:"Inter Tight", "Helvetica Neue", Arial, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0d0d0e;--fg:#f2f2f3;--muted:#a3a5ab;--line:#26272a;--soft:#18191b;--accent:#f2f2f3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d0d0e;--fg:#f2f2f3;--muted:#a3a5ab;--line:#26272a;--soft:#18191b;--accent:#f2f2f3;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:400 17px/1.6 var(--body)}
+.wrap{max-width:44rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+header{display:flex;flex-direction:column;gap:6px;border-bottom:1px solid var(--line);padding-bottom:24px}
+.brand{font:800 2.2rem/1.1 var(--display);letter-spacing:-.02em;margin:0}
+.sub{color:var(--muted);margin:0}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+nav a{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--soft);color:var(--fg);text-decoration:none;font-weight:600;font-size:.95rem}
+nav a:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+section{padding-top:36px}
+h2{font:800 1.6rem/1.2 var(--display);letter-spacing:-.01em;margin:0 0 4px;text-wrap:balance}
+h3{font:600 1.1rem/1.3 var(--display);margin:26px 0 6px}
+.date{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+p,li{max-width:65ch}
+ul{padding-left:1.2em;margin:6px 0}
+li{margin:4px 0}
+.box{background:var(--soft);border-radius:12px;padding:14px 16px;margin:14px 0}
+.mail{font-weight:600;user-select:all;word-break:break-all}
+a{color:var(--fg)}
+footer{border-top:1px solid var(--line);margin-top:44px;padding-top:18px;color:var(--muted);font-size:.9rem}
+</style>
+<style>nav a[aria-current]{background:var(--fg);color:var(--bg)}a.home{color:inherit;text-decoration:none}</style>
+</head><body><div class="wrap">
+<header>
+  <p class="brand"><a class="home" href="/">Good Job</a></p>
+  <p class="sub">Trabajos y oficios cerca de ti.</p>
+  <nav aria-label="Documentos"><a href="/aviso-de-privacidad/">Aviso de privacidad</a><a href="/terminos/">Términos de uso</a><a href="/borrar-cuenta/">Borrar mi cuenta</a></nav>
+</header>
+<section><h2>Página no encontrada</h2><p><a href="/">Ir al inicio de Good Job</a></p></section>
+<footer>Good Job · Soporte y Protección de Datos · Coatzacoalcos, Veracruz, México</footer>
+</div></body></html>
